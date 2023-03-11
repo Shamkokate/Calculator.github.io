@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.container-fluid {
+    text-align: center;
+    /*margin-top: 10%;*/
+    background: rgba(103,106, 203, 0.6);
+    padding: auto;
+    height: 100%;
+}
+
+.calculator {
+    display: grid;
+    width: auto;
+    height: auto;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+}
+.button {
+    height: 40px;
+    width: 43px;
+    border-radius: 3px solid black;
+}
+#display {
+    text-align: right;
+    height: 40px;
+    width: 200px;
+    border-radius: 9px;
+}
